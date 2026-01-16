@@ -49,7 +49,7 @@ family-tree-fako/
 ├─ README.md
 └─ .gitignore
 
----
+```
 
 
 ## Setup & Installation
@@ -72,36 +72,35 @@ aws --version
 cdk --version
 
 
----
+```
 
 # Install AWS CDK(If not installed)
 
 ```bash
 npm install -g aws-cdk
-```
 
----
+```
 
 # Install project dependencies
 
-```
+```bash
 npm install
 
----
+```
 
 # Bootstrap AWS environment (once per account/region)
 
-```
+```bash
 cdk bootstrap
 
----
+```
 
 # Deploy the application
 
-```
+```bash
 cdk deploy
 
----
+```
 
 # API Endpoints (example)
 
@@ -110,6 +109,7 @@ cdk deploy
 | GET    | /members     | List family members     |
 | POST   | /members     | Create family member    |
 | GET    | /family-tree | Fetch family tree graph |
+
 ---
 
 ### Frontend
@@ -126,7 +126,7 @@ cd frontend
 npm install
 npm start
 
----
+```
 
 # Environment Variables
 
